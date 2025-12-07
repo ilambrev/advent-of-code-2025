@@ -7,7 +7,7 @@ def find_manifold_location(diagram, manifold):
                 location[0] = i
                 location[1] = j
 
-                break
+                return location
 
     return location
 
